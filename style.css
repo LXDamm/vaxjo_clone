@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: grey;
+}
+
+.header-top-container {
+    display: flex;
+    margin: auto;
+    max-width: 1120px;
+    height: 100px;
+    background: white;
+}
+
+.logo {
+    width: 25%;
+    background: yellow;
+}
+
+.top-logo img {
+    height: 100px;
+}
+
+.access-list {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.access-list-item {
+    display: flex;
+    align-items: center;
+    padding: 41px;
+    height: 100%;
+}
+
+.header-nav-container {
+    margin: auto;
+    max-width: 1120px;
+    height: 80px;
+    background: green;
+}
+
+.main-nav {
+    width: 100%;
+    background: green;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}

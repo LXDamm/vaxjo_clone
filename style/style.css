@@ -16,8 +16,10 @@
     background: white;
 }
 
-.logo {
+.top-logo {
+    justify-content: flex-start;
     width: 25%;
+    height: 100%;
     background: yellow;
 }
 
@@ -25,9 +27,18 @@
     height: 100px;
 }
 
+.flex-list {
+    display: flex;
+    list-style: none;
+}
+
+.access {
+    width: 75%;
+    height: 100%;
+}
+
 .access-list {
     justify-content: flex-end;
-    width: 100%;
 }
 
 .access-list-item {
@@ -49,7 +60,8 @@
     background: green;
 }
 
-.nav-list {
+.nav-list-item {
     display: flex;
-    list-style: none;
+    align-items: center;
+    height: 100%;
 }

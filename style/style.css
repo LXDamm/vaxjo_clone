@@ -4,15 +4,18 @@
     padding: 0;
 }
 
-.header {
-    background: grey;
+.header-wrapper {
+    margin: auto;
+    max-width: 1120px;
+    height: 100%;
 }
 
 .header-top-container {
-    display: flex;
-    margin: auto;
-    max-width: 1120px;
     height: 100px;
+}
+
+.header-top-wrapper {
+    display: flex;
     background: white;
 }
 
@@ -20,7 +23,6 @@
     justify-content: flex-start;
     width: 25%;
     height: 100%;
-    background: yellow;
 }
 
 .top-logo img {
@@ -37,6 +39,11 @@
     height: 100%;
 }
 
+.access a {
+    text-decoration: none;
+    color: black;
+}
+
 .access-list {
     justify-content: flex-end;
 }
@@ -49,19 +56,22 @@
 }
 
 .header-nav-container {
-    margin: auto;
-    max-width: 1120px;
     height: 80px;
-    background: green;
+    background: #007C3E;
 }
 
-.main-nav {
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list {
     width: 100%;
-    background: green;
 }
 
 .nav-list-item {
     display: flex;
     align-items: center;
+    padding: 10px;
     height: 100%;
 }

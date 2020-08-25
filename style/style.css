@@ -48,10 +48,10 @@
     justify-content: flex-end;
 }
 
-.access-list-item {
-    display: flex;
+.access-list-item-container {
+    text-align: center;
     align-items: center;
-    padding: 41px;
+    padding: 30px;
     height: 100%;
 }
 
@@ -82,4 +82,22 @@
     align-items: center;
     padding: 20px;
     height: 100%;
+}
+
+.hero {
+    background-image: url("https://vaxjo.se/images/18.5beaed1f1711706227a13192/1585305403694/Vy_over_Vxjo-och-Helgasjon.jpg");
+}
+
+.port-container {
+    height: 450px;
+}
+
+.port-wrapper {
+    min-width: 400px;
+    margin: auto;
+}
+
+.port-link {
+    display: flex;
+    color: #003752;
 }

@@ -86,6 +86,7 @@
 
 .hero {
     background-image: url("https://vaxjo.se/images/18.5beaed1f1711706227a13192/1585305403694/Vy_over_Vxjo-och-Helgasjon.jpg");
+    background-size: contain;
 }
 
 .port-container {
@@ -93,11 +94,37 @@
 }
 
 .port-wrapper {
-    min-width: 400px;
+    max-width: 400px;
+    height: 200px;
     margin: auto;
 }
 
 .port-link {
     display: flex;
     color: #003752;
+}
+
+.covid {
+    margin: 8px;
+    padding: 8px;
+    background-color: #f0f5d6;
+}
+
+.main-wrapper {
+    margin: auto;
+    max-width: 1120px;
+}
+
+.main-articles {
+    display: flex;
+}
+
+.main-article h3, p {
+    padding: 40px;
+}
+
+.footer-wrapper {
+    margin: auto;
+    max-width: 1120px;
+    display: flex;
 }
